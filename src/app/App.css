@@ -18,5 +18,9 @@ body {
     background-color: slategray;
 }
 
-
+.footer {
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+}
 

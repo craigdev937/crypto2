@@ -1,4 +1,12 @@
-.nav__icon {
+.navbar {
+    width: 500px;
+}
+
+.navbar__ul {
+    align-items: center;
+}
+
+.navbar__icon {
     height: 20px;
     width: "auto";
 }

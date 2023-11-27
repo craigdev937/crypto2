@@ -8,13 +8,15 @@ export const Navbar = () => {
     return (
         <React.Fragment>
             <nav className="navbar">
-                <FaCoins />
-                {" "}
-                <span>
-                    <img className="nav__icon" 
-                        src={Crypto} alt="Crypto" 
-                    />
-                </span>
+                <ul className="navbar__ul">
+                    <FaCoins />
+                    {" "}
+                    <span>
+                        <img className="navbar__icon" 
+                            src={Crypto} alt="Crypto" 
+                        />
+                    </span>
+                </ul>
             </nav>
             <Outlet />
         </React.Fragment>
