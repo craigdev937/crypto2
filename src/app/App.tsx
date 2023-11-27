@@ -1,15 +1,11 @@
 import React from "react";
 import "./App.css";
-import Gene from "@public/Gene1.jpg";
+import { Main } from "../routes/Main";
 
 export const App = () => {
     return (
         <React.Fragment>
-            <h1 className="">Gene Hackman</h1>
-            <img 
-                src={Gene} alt="Gene Hackman"
-                height="500px" width="auto" 
-            />
+            <Main />
         </React.Fragment>
     );
 };
